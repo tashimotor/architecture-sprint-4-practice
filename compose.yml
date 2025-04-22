@@ -1,0 +1,15 @@
+services:
+  cache-aside:
+    build:
+      context: .
+    command: "npm run cache-aside"
+    volumes:
+      - ./src:/app
+    depends_on:
+      - redis
+    ports:
+      - "3000:3000"
+  redis:
+    image: 'redis:alpine'
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]

@@ -1,0 +1,19 @@
+{
+  "name": "caching",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cache-aside": "node cache-aside.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^3.3.2",
+    "redis": "^4.7.0"
+  }
+}
