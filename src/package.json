@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "cache-aside": "node cache-aside.js"
+    "cache-aside": "node cache-aside.js",
+    "refresh-ahead": "node refresh-ahead.js"
   },
   "keywords": [],
   "author": "",
